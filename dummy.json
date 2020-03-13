@@ -1,1 +1,71 @@
-{"players":[{"name":"fieldC","type":"STRING","defaultValue":false},{"name":"fieldC","type":"CHECKBOX","defaultValue":false,"values":[{"name":"check 1","type":"STRING","max":101,"defaultValue":false},{"name":"check 2","type":"STRING","max":102,"defaultValue":false}]},{"name":"fieldC","type":"RADIO","defaultValue":true,"values":[{"name":"radio 1","type":"STRING","max":103,"defaultValue":false},{"name":"radio 2","type":"STRING","max":104,"defaultValue":false}]},{"name":"Name","type":"TEXT","defaultValue":true,"componentType":"NAME","emailvalidation":true},{"name":"fieldC","type":"UPLOAD_IMAGE","defaultValue":false},{"name":"fieldC","type":"STRING","defaultValue":false},{"name":"Email","type":"TEXT","defaultValue":true,"componentType":"EMAIL","emailvalidation":true}]}
+{
+  "players": [
+    {
+      "name": "fieldC",
+      "type": "STRING",
+      "defaultValue": false
+    },
+    {
+      "name": "fieldC",
+      "type": "CHECKBOX",
+      "defaultValue": false,
+      "values": [
+        {
+          "name": "check 1",
+          "type": "STRING",
+          "max": 101,
+          "defaultValue": false
+        },
+        {
+          "name": "check 2",
+          "type": "STRING",
+          "max": 102,
+          "defaultValue": false
+        }
+      ]
+    },
+    {
+      "name": "fieldC",
+      "type": "RADIO",
+      "defaultValue": true,
+      "values": [
+        {
+          "name": "radio 1",
+          "type": "STRING",
+          "max": 103,
+          "defaultValue": false
+        },
+        {
+          "name": "radio 2",
+          "type": "STRING",
+          "max": 104,
+          "defaultValue": false
+        }
+      ]
+    },
+    {
+      "name": "Name",
+      "type": "TEXT",
+      "defaultValue": true,
+      "componentType": "NAME",
+      "emailvalidation": true
+    },
+    {
+      "name": "fieldC",
+      "type": "UPLOAD_IMAGE",
+      "defaultValue": false
+    },
+    {
+      "name": "fieldC",
+      "type": "STRING",
+      "defaultValue": false
+    },
+    {
+      "name": "Email",
+      "type": "TEXT",
+      "defaultValue": true,
+      "componentType": "EMAIL",
+      "emailvalidation": true
+    }
+  ]
+}
