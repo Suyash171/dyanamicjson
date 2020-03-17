@@ -52,11 +52,6 @@
     },
     {
       "name": "fieldC",
-      "type": "UPLOAD_IMAGE",
-      "defaultValue": false
-    },
-    {
-      "name": "fieldC",
       "type": "STRING",
       "defaultValue": false
     },
@@ -66,6 +61,127 @@
       "defaultValue": true,
       "componentType": "EMAIL",
       "emailvalidation": true
+    },
+    {
+      "name": "Who are you ?",
+      "type": "QUESTIONS",
+      "defaultValue": true,
+      "values": [
+        {
+          "name": "Male",
+          "type": "STRING",
+          "max": 103,
+          "defaultValue": false
+        },
+        {
+          "name": "Female",
+          "type": "STRING",
+          "max": 104,
+          "defaultValue": false
+        },
+        {
+          "name": "Don't know",
+          "type": "STRING",
+          "max": 105,
+          "defaultValue": false
+        },
+        {
+          "name": "Why should I tell you",
+          "type": "STRING",
+          "max": 106,
+          "defaultValue": false
+        }
+      ]
+    },
+    {
+      "name": "Email",
+      "type": "TEXT",
+      "defaultValue": true,
+      "componentType": "EMAIL",
+      "emailvalidation": true
+    },
+    {
+      "name": "Is Corona at your place ?",
+      "type": "QUESTIONS",
+      "defaultValue": true,
+      "values": [
+        {
+          "name": "Yes",
+          "type": "STRING",
+          "max": 103,
+          "defaultValue": false
+        },
+        {
+          "name": "No",
+          "type": "STRING",
+          "max": 104,
+          "defaultValue": false
+        },
+        {
+          "name": "Don't know",
+          "type": "STRING",
+          "max": 105,
+          "defaultValue": false
+        }
+      ]
+    },
+    {
+      "name": "Label",
+      "type": "STRING",
+      "defaultValue": true,
+      "componentType": "NAME",
+      "emailvalidation": true
+    },
+    {
+      "name": "Select your language?",
+      "type": "QUESTIONS",
+      "defaultValue": true,
+      "values": [
+        {
+          "name": "English",
+          "type": "STRING",
+          "max": 103,
+          "defaultValue": false
+        },
+        {
+          "name": "HINDI",
+          "type": "STRING",
+          "max": 104,
+          "defaultValue": false
+        },
+        {
+          "name": "MARATHI",
+          "type": "STRING",
+          "max": 105,
+          "defaultValue": false
+        }
+      ]
+    },
+    {
+      "name": "Name",
+      "type": "TEXT",
+      "defaultValue": false,
+      "componentType": "NAME",
+      "emailvalidation": false
+    },
+    {
+      "name": "Do you like this form?",
+      "type": "QUESTIONS",
+      "defaultValue": true,
+      "values": [
+        {
+          "name": "YES",
+          "type": "STRING",
+          "max": 103,
+          "defaultValue": false
+        },
+        {
+          "name": "NO",
+          "type": "STRING",
+          "max": 104,
+          "defaultValue": false
+        }
+      ]
     }
   ]
 }
